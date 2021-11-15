@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Prompt:wght@300&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Josefin Sans";
+}
+html{
+    scroll-behavior: smooth;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+.second-links{
+    margin-left:30px;
+}
+nav{
+    position:relative;
+    top:10px;
+}
+.nav-link{
+    font-weight:500;
+    font-size:18px;
+    margin-right:10px;
+    color:black;
+    font-weight:600;
+}
+.navbar-brand{
+    font-weight:800;
+    color:black;
+    font-size:24px;
+}
+.demo{
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+.cafe{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+
+/* banner */
+#banner{
+    background-color: #f8ecf2;
+}
+.banner-img{
+    background-color: white;
+    /* width: 100%; */
+    height: 100%;
+}
+.div-1{
+    margin-top: 100px;
+    padding: 20px;
+}
+.banner-heading{
+    font-weight: 800;
+    font-size: 60px;
+    color: black;
+}
+.banner-p{
+    font-size: 20px;
+}
+.banner-cafe{
+    margin-top: 50px;
+    width: fit-content;
+}
+
+
+/* company */
+.company-div{
+    text-align: center;
+}
+.company-header{
+    margin-top: 20px;
+}
+.comp-img{
+    width: 200px;
+    height: 100px;
+}
+
+
+/* workplace */
+#workplace{
+    background-color:black;
+    text-align: center;
+}
+.place-row{
+    text-align: center;
+}
+.workplace-header{
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    font-size: 59px;
+}
+.workplace-subheading{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.arrow-img{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+.place-img{
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* space-management */
+#space{
+    background-color: #f8ecf2;
+}
+.space-container{
+    padding: 20px;
+}
+.space-img{
+    width: auto;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.space-logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+.space-header{
+    font-weight: 800;
+    font-size: 59px;
+}
+.space-p{
+    color: black;
+}
+
+/* people and plans */
+.people-img{
+    width: auto;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.people-logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+.people-heading{
+    font-weight: 800;
+    font-size: 59px;
+}
+
+/* optimize space */
+#optimize-space{
+    background-color: #f8ecf2;
+}
+.space-img{
+    width: auto;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.space-logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+.space-heading{
+    font-weight: 800;
+    font-size: 59px;
+}
+
+/* location */
+.locate-img{
+    width: auto;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.locate-logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+.locate-heading{
+    font-weight: 800;
+    font-size: 59px;
+}
+
+/* plug and play */
+#plug{
+    background-color: #f8ecf2;
+}
+.plug-img{
+    width: auto;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plug-logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+.plug-heading{
+    font-weight: 800;
+    font-size: 59px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    /* navbar */
+    nav{
+        position:relative;
+        top:0px;
+    }
+    .second-links{
+        margin-left:0px;
+    }
+    .navbar-brand{
+        font-size: 24px;
+    }
+    .demo , .cafe{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    /* banner */
+    .banner-heading{
+        font-size: 30px;   
+    }
+    .div-1{
+        margin-top: 50px;
+        padding: 0px;
+    }
+    .banner-img{
+        width: max-content;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* workplace */
+    .workplace-header{
+        font-size: 30px;
+    }
+    .arrow-img{
+        visibility: hidden;
+    }
+    .place-img{
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        /* space-management */
+    .space-container{
+        padding: 0px;
+    }
+    .space-img{
+        width: fit-content;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    .space-logo{
+        width: 50px;
+        height: 50px;
+    }
+    .space-header{
+        font-weight: 800;
+        font-size: 30px;
+    }
+    
+    /* people and plans */
+    .people-img{
+        width: fit-content;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .people-logo{
+        width: 50px;
+        height: 50px;
+    }
+    .people-heading{
+        font-weight: 800;
+        font-size: 30px;
+    }
+
+    /* optimize space */
+    .space-img{
+        width: fit-content;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .space-logo{
+        width: 50px;
+        height: 50px;
+    }
+    .space-heading{
+        font-weight: 800;
+        font-size: 30px;
+    }
+
+    /* location */
+    .locate-img{
+        width: fit-content;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .locate-logo{
+        width: 50px;
+        height: 50px;
+    }
+    .locate-heading{
+        font-weight: 800;
+        font-size: 30px;
+    }
+
+    /* plug and play */
+    .plug-img{
+        width: fit-content;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    .plug-logo{
+        width: 50px;
+        height: 50px;
+    }
+    .plug-header{
+        font-weight: 800;
+        font-size: 30px;
+    }
+    
+
+}
