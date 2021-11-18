@@ -80,7 +80,11 @@ nav{
     font-weight:600;
     padding: 7px 10px;
 }
-
+.y-img{
+    text-align: left;
+    display: block;
+    margin-left: 0%;
+}
 
 /* company */
 .company-div{
@@ -544,6 +548,266 @@ nav{
     }
     .all-links{
         display: none;
+    }
+    
+
+}
+
+@media only screen and (max-width: 768px)
+{
+    /* navbar */
+    nav{
+        position:relative;
+        top:0px;
+    }
+    .second-links{
+        margin-left:0px;
+    }
+    .navbar-brand{
+        font-size: 24px;
+    }
+    .demo , .cafe{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    /* banner */
+    .banner-div{
+        text-align: center;
+    }
+    .banner-heading{
+        font-size: 30px; 
+        text-align: center;  
+    }
+    .div-1{
+        text-align: center;
+        margin-top: 50px;
+        padding: 0px;
+    }
+    /* .banner-p{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    } */
+    .banner-img{
+        width: 350px;
+        height: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    /* workplace */
+    .workplace-header{
+        font-size: 30px;
+        text-align: center;
+    }
+    .arrow-img{
+        visibility: hidden;
+        height: 20px;
+        width: 20px;
+    }
+    .place-img{
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* company */
+    .company-div{
+        text-align: center;
+    }
+    .company-header{
+        margin-top: 20px;
+    }
+    .comp-img{
+        width: 120px;
+        height: 60px;
+    }
+
+
+        /* space-management */
+    .space-container{
+        padding: 0px;
+        text-align: center;
+    }
+    .space-img{
+        width: fit-content;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    .space-logo{
+        width: 50px;
+        height: 50px;
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto; */
+    }
+    .space-header{
+        font-weight: 800;
+        font-size: 30px;
+        /* text-align: center; */
+    }
+    
+    /* people and plans */
+    .people-img{
+        width: fit-content;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .people-logo{
+        width: 50px;
+        height: 50px;
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto; */
+    }
+    .people-heading{
+        font-weight: 800;
+        font-size: 30px;
+        /* text-align: center; */
+    }
+
+    /* optimize space */
+    .space-img{
+        width: fit-content;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .space-logo{
+        width: 50px;
+        height: 50px;
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto; */
+    }
+    .space-heading{
+        font-weight: 800;
+        font-size: 30px;
+        /* text-align: center; */
+    }
+    /* .space-p{
+        text-align: center;
+    } */
+
+    /* location */
+    .locate-img{
+        width: fit-content;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .locate-logo{
+        width: 50px;
+        height: 50px;
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto; */
+    }
+    .locate-heading{
+        font-weight: 800;
+        font-size: 30px;
+        /* text-align: center; */
+    }
+    /* .people-plan{
+        text-align: center;
+    } */
+    /* plug and play */
+    .plug-img{
+        width: fit-content;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    .plug-logo{
+        width: 50px;
+        height: 50px;
+        /* display: block;
+        margin-left: auto;
+        margin-right: auto; */
+    }
+    .plug-heading{
+        font-weight: 800;
+        font-size: 30px;
+        /* text-align: center; */
+    }
+    /* .plug-p{
+        text-align: center;
+    } */
+    /* on board */
+    .board-heading{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .board-img{
+        border-radius: 10px;
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        /* try-cafe */
+    #try-cafe{
+        /* margin-top: 20px; */
+        background-color:rgb(43, 43, 43);
+        text-align: center;
+    }
+    .try-img{
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
+    .try-h1{
+        text-align: center;
+        font-weight: 700;
+        /* margin-top: 80px; */
+        color: white;
+    }
+    .try-btn{
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 5px 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* footer */
+    .footer-ul {
+        display: block;
+        padding:0;
+        list-style:none;
+        text-align:center;
+        font-size:18px;
+        line-height:1.6;
+        margin-bottom:0;
+    }
+    .all-links{
+        display: none;
+    }
+    .footer-logo{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
     
 
